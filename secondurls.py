@@ -9,4 +9,4 @@ urlpatterns = [ # The variable urlpatterns in this module is a list of individua
     # Home page
     path('', views.index, name='index'), # In its entirety, this expression tells Python to look for a URL with nothing between the beginning and end of the URL
 #  the name index provides a link to the home page so we’ll use this name instead of writing out a URL
-  ]
+ ]
