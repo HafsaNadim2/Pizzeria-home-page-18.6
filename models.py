@@ -15,4 +15,4 @@ class Topping(models.Model): # this creates a Topping class and lets us include 
         verbose_name_plural = 'toppings'
 
     def __str__(self): # the string method tells Django which info. to show when it refers to individual toppings
-        return str (self.name)[:50] 
+        return str (self.name)[:50]  # need the str bc of the Django version # if using older version, do not need
