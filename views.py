@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render #  file just imports the render() function, which renders the response based on the data provided by views
 
 def index(request):
     """The home page for Pizzeria."""
